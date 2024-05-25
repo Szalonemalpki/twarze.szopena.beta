@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twarze Szopena - Soon...</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000; /* Zmiana koloru tła na czarny */
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 100px auto;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            color: #f00;
+            background-image: url(https://media.giphy.com/media/4FQMuOKR6zQRO/giphy.gif);
+            background-size: cover;
+            background-clip: text;
+            -webkit-background-clip: text;
+            text-fill-color: transparent;
+            animation: burn 3s infinite;
+        }
+        @keyframes burn {
+            0% { text-shadow: 0 0 10px #ff0, 0 0 20px #ff0, 0 0 30px #ff0, 0 0 40px #f00, 0 0 70px #f00, 0 0 80px #f00, 0 0 100px #f00, 0 0 150px #f00; }
+            50% { text-shadow: 0 0 5px #ff0, 0 0 10px #ff0, 0 0 15px #ff0, 0 0 20px #f00, 0 0 35px #f00, 0 0 40px #f00, 0 0 50px #f00, 0 0 75px #f00; }
+            100% { text-shadow: 0 0 10px #ff0, 0 0 20px #ff0, 0 0 30px #ff0, 0 0 40px #f00, 0 0 70px #f00, 0 0 80px #f00, 0 0 100px #f00, 0 0 150px #f00; }
+        }
+        .email-form {
+            margin-top: 30px;
+        }
+        .email-input {
+            padding: 10px;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+        .submit-btn {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>TWARZE SZOPENA SOON...</h1>
+        <form class="email-form" action="" method="POST"> <!-- Usunięcie atrybutu action -->
+            <input type="email" id="email" name="email" class="email-input" placeholder="Wpisz swój adres e-mail" required>
+            <button type="submit" class="submit-btn">Wyślij</button>
+        </form>
+    </div>
+
+    <?php
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $email_to = $_POST['email'];
+
+        $message = "[Producer tag]
+        MG (MG, MG, MG)
+
+        [Refren: Belmondo, Diho]
+        W szoku są te suki (w szoku są te suki)
+        W szoku są te szmaty (w szoku są te szmaty)
+        Zszokowane szlaufy zachowują się jak małpy (Get Money) (się jak małpy)
+        Mobbyn (Mobbyn)
+
+        [Zwrotka 1: Diho]
+        Twoja dupa da ci dupy, jak jej dasz torebkę (hajs)
+        Moje dupy dają dupy i przynoszą teczkę
+        Mówią na mnie orangutan albo miejski surfer (money)
+        Mam dużego fiuta, robię dżungle w mieście (uhu, uhu)
+        Wszystkie fury tankuję na stacji (naajak)
+        Brudne rury, jak w kanalizacji (naajak)
+        Chce dupy, co ssie jak ten wampir (ssie jak wampir)
+        Nie domowej kury, co ma za duże majtki
+        Jak się gibam pijany, to mi zróbcie przejście
+        Jak mnie zamkną do ośrodka, no to im ucieknę
+        Najpierw wszystkie pielęgniarki będą chciały zdjęcie
+        Ja nie chodzę do kościoła, ale wpadaj na kolędę
+        To jest mój cyrk, moje małpy
+        Na fiucie kokarda tak wjeżdżam do rapgry
+        Odpalam Instagram i szukam se fanki
+        To samiec alfa; Jordany i Najki (nowe)
+        Trzy dziury jak kula do kręgli (uh)
+        Ona lubi gdy robi się wielki (łu)
+        Drze mordę, nie śpiewa piosenki (łuh, uh)
+        Bo to jebanie, a nie granie w bierki (orangutan)
+        Jej stanik, pończochy i majtki (zrywam)
+        Freestyle'e, koncerty, pisanki (nagrywam)
+        Setki, tysiące i bańki (wydaję)
+        Ja chcę scenę rozwalić i banki (bang)
+        See upcoming rap shows
+        Get tickets for your favorite artists
+        You might also like
+        Telefony
+        Belmondo
+        Dr. Traphouse
+        Kaz Bałagane
+        Garfield
+        Szpaku
+        [Refren: Belmondo, Plejer]
+        W szoku są te suki (w szoku są te suki)
+        W szoku są te szmaty (w szoku są te szmaty)
+        Zszokowane szlaufy zachowują się jak małpy (zachowują się jak małpy)
+        Mobbyn (Mobbyn)
+        Ej, ej
+
+        [Zwrotka 2: Plejer]
+        Kupi
